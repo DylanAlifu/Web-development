@@ -1,0 +1,159 @@
+/* --------------------------------- ALL --------------------------------- */
+body {
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat';
+}
+
+p, .footer-text {
+    color: #afafaf;
+}
+
+.colored-section {
+    background-color: #93BFCF;
+    color: azure;
+}
+
+.white-section {
+    background-color: white;
+}
+
+
+/* ---------------------------- Navigation Bar --------------------------- */
+.navbar {
+    padding: 0 0 6rem;
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+
+/* ---------------------------- Title Section ----------------------------- */
+#title {
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.title-image {
+    padding-top: 100px;
+    position: relative;
+    right: 100px;
+    top: 34px;
+}
+
+
+/* --------------------------------- Heading ----------------------------- */
+.welcome-message {
+    padding-top: 40px;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+/* --------------------------- Features Section --------------------------- */
+.icon {
+    color: #93BFCF;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #23a3d1;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+
+/* ------------------------ Testimonials Section -------------------------- */
+#testimonials {
+    text-align: center;
+}
+
+.testimonial-text {
+    font-weight: bold;
+    font-size: 150%;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 70%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+/* ----------------------------- Press Section ----------------------------- */
+#press {
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 20%;
+    margin: 20px 20px 50px;
+}
+
+
+/* ---------------------------- Pricing Section --------------------------- */
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media (max-width:991px) {
+    #title {
+        text-align: center;
+    }
+}
+
+
+/* ------------------------------ CTA Section ----------------------------- */
+.cta-heading {
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* ---------------------------- Footer Section --------------------------- */
+.ext-link {
+    color: #93BFCF;
+    padding: 3% 1%;
+}
+
+.ext-link:hover {
+    color: #23a3d1;
+}
